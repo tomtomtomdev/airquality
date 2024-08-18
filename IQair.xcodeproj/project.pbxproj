@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		563FBB872C70C2470074D905 /* IQairApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBB862C70C2470074D905 /* IQairApp.swift */; };
+		563FBB892C70C2470074D905 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBB882C70C2470074D905 /* ContentView.swift */; };
+		563FBB8B2C70C2480074D905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563FBB8A2C70C2480074D905 /* Assets.xcassets */; };
+		563FBB8E2C70C2480074D905 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563FBB8D2C70C2480074D905 /* Preview Assets.xcassets */; };
+		563FBB982C70C2480074D905 /* IQairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBB972C70C2480074D905 /* IQairTests.swift */; };
+		563FBBA22C70C2480074D905 /* IQairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBA12C70C2480074D905 /* IQairUITests.swift */; };
+		563FBBA42C70C2480074D905 /* IQairUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBA32C70C2480074D905 /* IQairUITestsLaunchTests.swift */; };
+		563FBBB12C70C2650074D905 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBB02C70C2650074D905 /* Constants.swift */; };
+		563FBBB32C70C2A40074D905 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBB22C70C2A40074D905 /* Network.swift */; };
+		563FBBB72C70C2DE0074D905 /* AirQualityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBB62C70C2DE0074D905 /* AirQualityRepository.swift */; };
+		563FBBBA2C70C30E0074D905 /* GetCityAirQualityUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBB92C70C30E0074D905 /* GetCityAirQualityUseCase.swift */; };
+		563FBBBD2C70C3240074D905 /* AirQualityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBBC2C70C3240074D905 /* AirQualityViewModel.swift */; };
+		563FBBC02C70C3390074D905 /* AirQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBBF2C70C3390074D905 /* AirQualityView.swift */; };
+		563FBBC32C70C3850074D905 /* MockGetCityAirQualityUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBC22C70C3850074D905 /* MockGetCityAirQualityUseCase.swift */; };
+		563FBBC52C70C3AB0074D905 /* AirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBC42C70C3AB0074D905 /* AirQuality.swift */; };
+		563FBBC82C70CFAC0074D905 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBC72C70CFAC0074D905 /* Response.swift */; };
+		563FBBCA2C70CFB90074D905 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBC92C70CFB90074D905 /* Unit.swift */; };
+		563FBBCC2C70CFC90074D905 /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBCB2C70CFC90074D905 /* Current.swift */; };
+		563FBBCE2C70CFDB0074D905 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBCD2C70CFDB0074D905 /* History.swift */; };
+		563FBBD02C70CFF50074D905 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBCF2C70CFF50074D905 /* Weather.swift */; };
+		563FBBD22C70D0030074D905 /* Pollution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBD12C70D0030074D905 /* Pollution.swift */; };
+		563FBBD42C70D0130074D905 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBD32C70D0130074D905 /* Forecast.swift */; };
+		563FBBD62C70D01F0074D905 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBD52C70D01F0074D905 /* Location.swift */; };
+		563FBBD82C70D0330074D905 /* Pl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563FBBD72C70D0330074D905 /* Pl.swift */; };
+		565EB70A2C724F170036515B /* IQAirAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565EB7092C724F170036515B /* IQAirAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		563FBB942C70C2480074D905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563FBB7B2C70C2470074D905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563FBB822C70C2470074D905;
+			remoteInfo = IQair;
+		};
+		563FBB9E2C70C2480074D905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563FBB7B2C70C2470074D905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563FBB822C70C2470074D905;
+			remoteInfo = IQair;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		563FBB832C70C2470074D905 /* IQair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		563FBB862C70C2470074D905 /* IQairApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQairApp.swift; sourceTree = "<group>"; };
+		563FBB882C70C2470074D905 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		563FBB8A2C70C2480074D905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		563FBB8D2C70C2480074D905 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		563FBB932C70C2480074D905 /* IQairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		563FBB972C70C2480074D905 /* IQairTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQairTests.swift; sourceTree = "<group>"; };
+		563FBB9D2C70C2480074D905 /* IQairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		563FBBA12C70C2480074D905 /* IQairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQairUITests.swift; sourceTree = "<group>"; };
+		563FBBA32C70C2480074D905 /* IQairUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQairUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		563FBBB02C70C2650074D905 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		563FBBB22C70C2A40074D905 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		563FBBB62C70C2DE0074D905 /* AirQualityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityRepository.swift; sourceTree = "<group>"; };
+		563FBBB92C70C30E0074D905 /* GetCityAirQualityUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCityAirQualityUseCase.swift; sourceTree = "<group>"; };
+		563FBBBC2C70C3240074D905 /* AirQualityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityViewModel.swift; sourceTree = "<group>"; };
+		563FBBBF2C70C3390074D905 /* AirQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityView.swift; sourceTree = "<group>"; };
+		563FBBC22C70C3850074D905 /* MockGetCityAirQualityUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGetCityAirQualityUseCase.swift; sourceTree = "<group>"; };
+		563FBBC42C70C3AB0074D905 /* AirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQuality.swift; sourceTree = "<group>"; };
+		563FBBC72C70CFAC0074D905 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		563FBBC92C70CFB90074D905 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		563FBBCB2C70CFC90074D905 /* Current.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
+		563FBBCD2C70CFDB0074D905 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		563FBBCF2C70CFF50074D905 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		563FBBD12C70D0030074D905 /* Pollution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pollution.swift; sourceTree = "<group>"; };
+		563FBBD32C70D0130074D905 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		563FBBD52C70D01F0074D905 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		563FBBD72C70D0330074D905 /* Pl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pl.swift; sourceTree = "<group>"; };
+		565EB7092C724F170036515B /* IQAirAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQAirAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		563FBB802C70C2470074D905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563FBB902C70C2480074D905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563FBB9A2C70C2480074D905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		563FBB7A2C70C2470074D905 = {
+			isa = PBXGroup;
+			children = (
+				563FBB852C70C2470074D905 /* IQair */,
+				563FBB962C70C2480074D905 /* IQairTests */,
+				563FBBA02C70C2480074D905 /* IQairUITests */,
+				563FBB842C70C2470074D905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		563FBB842C70C2470074D905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				563FBB832C70C2470074D905 /* IQair.app */,
+				563FBB932C70C2480074D905 /* IQairTests.xctest */,
+				563FBB9D2C70C2480074D905 /* IQairUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		563FBB852C70C2470074D905 /* IQair */ = {
+			isa = PBXGroup;
+			children = (
+				563FBB862C70C2470074D905 /* IQairApp.swift */,
+				563FBB882C70C2470074D905 /* ContentView.swift */,
+				563FBBC62C70CFA60074D905 /* Model */,
+				563FBBC12C70C3420074D905 /* View */,
+				563FBBBE2C70C32D0074D905 /* Presentation */,
+				563FBBBB2C70C3190074D905 /* Usecase */,
+				563FBBB82C70C2F00074D905 /* Adapter */,
+				563FBBB42C70C2C20074D905 /* Constants */,
+				563FBBB52C70C2CD0074D905 /* Network */,
+				563FBB8A2C70C2480074D905 /* Assets.xcassets */,
+				563FBB8C2C70C2480074D905 /* Preview Content */,
+			);
+			path = IQair;
+			sourceTree = "<group>";
+		};
+		563FBB8C2C70C2480074D905 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				563FBB8D2C70C2480074D905 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		563FBB962C70C2480074D905 /* IQairTests */ = {
+			isa = PBXGroup;
+			children = (
+				563FBB972C70C2480074D905 /* IQairTests.swift */,
+				563FBBC22C70C3850074D905 /* MockGetCityAirQualityUseCase.swift */,
+			);
+			path = IQairTests;
+			sourceTree = "<group>";
+		};
+		563FBBA02C70C2480074D905 /* IQairUITests */ = {
+			isa = PBXGroup;
+			children = (
+				563FBBA12C70C2480074D905 /* IQairUITests.swift */,
+				563FBBA32C70C2480074D905 /* IQairUITestsLaunchTests.swift */,
+			);
+			path = IQairUITests;
+			sourceTree = "<group>";
+		};
+		563FBBB42C70C2C20074D905 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				563FBBB02C70C2650074D905 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		563FBBB52C70C2CD0074D905 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				563FBBB22C70C2A40074D905 /* Network.swift */,
+				565EB7092C724F170036515B /* IQAirAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		563FBBB82C70C2F00074D905 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				563FBBB62C70C2DE0074D905 /* AirQualityRepository.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		563FBBBB2C70C3190074D905 /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				563FBBB92C70C30E0074D905 /* GetCityAirQualityUseCase.swift */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
+		563FBBBE2C70C32D0074D905 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				563FBBBC2C70C3240074D905 /* AirQualityViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		563FBBC12C70C3420074D905 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				563FBBBF2C70C3390074D905 /* AirQualityView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		563FBBC62C70CFA60074D905 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				563FBBC42C70C3AB0074D905 /* AirQuality.swift */,
+				563FBBC72C70CFAC0074D905 /* Response.swift */,
+				563FBBC92C70CFB90074D905 /* Unit.swift */,
+				563FBBCB2C70CFC90074D905 /* Current.swift */,
+				563FBBCD2C70CFDB0074D905 /* History.swift */,
+				563FBBD72C70D0330074D905 /* Pl.swift */,
+				563FBBCF2C70CFF50074D905 /* Weather.swift */,
+				563FBBD12C70D0030074D905 /* Pollution.swift */,
+				563FBBD32C70D0130074D905 /* Forecast.swift */,
+				563FBBD52C70D01F0074D905 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		563FBB822C70C2470074D905 /* IQair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563FBBA72C70C2480074D905 /* Build configuration list for PBXNativeTarget "IQair" */;
+			buildPhases = (
+				563FBB7F2C70C2470074D905 /* Sources */,
+				563FBB802C70C2470074D905 /* Frameworks */,
+				563FBB812C70C2470074D905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQair;
+			productName = IQair;
+			productReference = 563FBB832C70C2470074D905 /* IQair.app */;
+			productType = "com.apple.product-type.application";
+		};
+		563FBB922C70C2480074D905 /* IQairTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563FBBAA2C70C2480074D905 /* Build configuration list for PBXNativeTarget "IQairTests" */;
+			buildPhases = (
+				563FBB8F2C70C2480074D905 /* Sources */,
+				563FBB902C70C2480074D905 /* Frameworks */,
+				563FBB912C70C2480074D905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563FBB952C70C2480074D905 /* PBXTargetDependency */,
+			);
+			name = IQairTests;
+			productName = IQairTests;
+			productReference = 563FBB932C70C2480074D905 /* IQairTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		563FBB9C2C70C2480074D905 /* IQairUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563FBBAD2C70C2480074D905 /* Build configuration list for PBXNativeTarget "IQairUITests" */;
+			buildPhases = (
+				563FBB992C70C2480074D905 /* Sources */,
+				563FBB9A2C70C2480074D905 /* Frameworks */,
+				563FBB9B2C70C2480074D905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563FBB9F2C70C2480074D905 /* PBXTargetDependency */,
+			);
+			name = IQairUITests;
+			productName = IQairUITests;
+			productReference = 563FBB9D2C70C2480074D905 /* IQairUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		563FBB7B2C70C2470074D905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					563FBB822C70C2470074D905 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					563FBB922C70C2480074D905 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 563FBB822C70C2470074D905;
+					};
+					563FBB9C2C70C2480074D905 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 563FBB822C70C2470074D905;
+					};
+				};
+			};
+			buildConfigurationList = 563FBB7E2C70C2470074D905 /* Build configuration list for PBXProject "IQair" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 563FBB7A2C70C2470074D905;
+			productRefGroup = 563FBB842C70C2470074D905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				563FBB822C70C2470074D905 /* IQair */,
+				563FBB922C70C2480074D905 /* IQairTests */,
+				563FBB9C2C70C2480074D905 /* IQairUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		563FBB812C70C2470074D905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563FBB8E2C70C2480074D905 /* Preview Assets.xcassets in Resources */,
+				563FBB8B2C70C2480074D905 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563FBB912C70C2480074D905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563FBB9B2C70C2480074D905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		563FBB7F2C70C2470074D905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563FBBB72C70C2DE0074D905 /* AirQualityRepository.swift in Sources */,
+				563FBBCC2C70CFC90074D905 /* Current.swift in Sources */,
+				563FBBBA2C70C30E0074D905 /* GetCityAirQualityUseCase.swift in Sources */,
+				563FBBBD2C70C3240074D905 /* AirQualityViewModel.swift in Sources */,
+				563FBB892C70C2470074D905 /* ContentView.swift in Sources */,
+				563FBBD42C70D0130074D905 /* Forecast.swift in Sources */,
+				563FBBB12C70C2650074D905 /* Constants.swift in Sources */,
+				563FBBD82C70D0330074D905 /* Pl.swift in Sources */,
+				563FBBC82C70CFAC0074D905 /* Response.swift in Sources */,
+				563FBBC02C70C3390074D905 /* AirQualityView.swift in Sources */,
+				563FBBB32C70C2A40074D905 /* Network.swift in Sources */,
+				563FBBD02C70CFF50074D905 /* Weather.swift in Sources */,
+				563FBBD62C70D01F0074D905 /* Location.swift in Sources */,
+				563FBBD22C70D0030074D905 /* Pollution.swift in Sources */,
+				563FBBC52C70C3AB0074D905 /* AirQuality.swift in Sources */,
+				563FBBCE2C70CFDB0074D905 /* History.swift in Sources */,
+				563FBBCA2C70CFB90074D905 /* Unit.swift in Sources */,
+				565EB70A2C724F170036515B /* IQAirAPI.swift in Sources */,
+				563FBB872C70C2470074D905 /* IQairApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563FBB8F2C70C2480074D905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563FBB982C70C2480074D905 /* IQairTests.swift in Sources */,
+				563FBBC32C70C3850074D905 /* MockGetCityAirQualityUseCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563FBB992C70C2480074D905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563FBBA22C70C2480074D905 /* IQairUITests.swift in Sources */,
+				563FBBA42C70C2480074D905 /* IQairUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		563FBB952C70C2480074D905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563FBB822C70C2470074D905 /* IQair */;
+			targetProxy = 563FBB942C70C2480074D905 /* PBXContainerItemProxy */;
+		};
+		563FBB9F2C70C2480074D905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563FBB822C70C2470074D905 /* IQair */;
+			targetProxy = 563FBB9E2C70C2480074D905 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		563FBBA52C70C2480074D905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		563FBBA62C70C2480074D905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		563FBBA82C70C2480074D905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IQair/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tom.tom.tom.IQair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		563FBBA92C70C2480074D905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IQair/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tom.tom.tom.IQair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		563FBBAB2C70C2480074D905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tom.tom.tom.IQairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IQair.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IQair";
+			};
+			name = Debug;
+		};
+		563FBBAC2C70C2480074D905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tom.tom.tom.IQairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IQair.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IQair";
+			};
+			name = Release;
+		};
+		563FBBAE2C70C2480074D905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tom.tom.tom.IQairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IQair;
+			};
+			name = Debug;
+		};
+		563FBBAF2C70C2480074D905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tom.tom.tom.IQairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IQair;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		563FBB7E2C70C2470074D905 /* Build configuration list for PBXProject "IQair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563FBBA52C70C2480074D905 /* Debug */,
+				563FBBA62C70C2480074D905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563FBBA72C70C2480074D905 /* Build configuration list for PBXNativeTarget "IQair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563FBBA82C70C2480074D905 /* Debug */,
+				563FBBA92C70C2480074D905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563FBBAA2C70C2480074D905 /* Build configuration list for PBXNativeTarget "IQairTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563FBBAB2C70C2480074D905 /* Debug */,
+				563FBBAC2C70C2480074D905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563FBBAD2C70C2480074D905 /* Build configuration list for PBXNativeTarget "IQairUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563FBBAE2C70C2480074D905 /* Debug */,
+				563FBBAF2C70C2480074D905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 563FBB7B2C70C2470074D905 /* Project object */;
+}
